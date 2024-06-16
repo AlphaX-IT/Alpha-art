@@ -1,0 +1,440 @@
+.banner{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:beige;
+    box-shadow: 0 2px 4px
+}
+.left a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.center{
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.center ul li{
+    display: inline;
+    color: #333;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 2rem;
+    text-decoration: nones;
+}
+.center ul li a{
+    text-decoration: none;
+}
+.part-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px;
+}
+.content{
+    max-width: 50%;
+}
+.content h1{
+    font-size: 2.5rem;
+    margin: 0;
+    color: #333;
+}
+.content p{
+    margin: 1rem 0;
+    color: #666;
+    line-height: 1.6;
+}
+.buttons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.btn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn.primary{
+    background-color: black;
+    color: white;
+}
+.btn.primary:hover{
+    background-color: #333;
+}
+.btn.secondary{
+    background-color: white;
+    color: #333;
+}
+.btn.secondary:hover{
+    background-color: #333;
+    color: white;
+}
+.image-1 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    margin-top: 2rem;
+    box-shadow: 0 2px 4px;
+}
+.box {
+    text-align: center;
+}
+.box h2{
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+.box p{
+    margin: 0.5rem 0 0 0;
+    color: #666;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px;
+    margin: 2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.about-content{
+    max-width: 50%;
+}
+.about-content h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.about-content p{
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem
+}
+.btn2{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3 ease;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: background-color 0.3 ease;
+    -moz-transition: background-color 0.3 ease;
+    -ms-transition: background-color 0.3 ease;
+    -o-transition: background-color 0.3 ease;
+}
+.btn2:hover{
+    background-color: #333;
+}
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+}
+
+.gallery-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px;
+}
+
+.gallery-section h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap: 1rem;
+}
+.gallery-item{
+    width: 90%;
+    height: 100%;
+}
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px;
+}
+.auction-sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px;
+    margin: 2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.auction-content{
+    max-width: 50%;
+}
+.auction-content h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.auction-content p{
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+.btn3{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn3:hover{
+    background-color: #333;
+}
+.auction-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 40%;
+}
+.cards-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px;
+}
+.box2{
+    text-align: center;
+}
+.box2 h2{
+    margin: 0;
+    font-size: 2rem;
+    color: #333;
+}
+.box2 p{
+    margin: 0.5rem 0 0 0;
+    color: #666;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: #ffffff;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px ;
+}
+
+.contact-info {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.contact-info h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #eeeeee;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.contact-form .form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-form .form-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.community-section{
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px;
+}
+.community-section h1{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.social-link{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+}
+.social-link:hover{
+    background-color: white;
+}
+.social-link img{
+    width: 40px;
+    height: 40px;
+}
+.social-link a{
+    text-decoration: none;
+}
+footer{
+    background-color: white;
+    padding: 1rem;
+    border-top: 40px solid white;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.footer-nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+.footer-nav a:hover{
+    color: #555;
+}
+.footer-logo{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
+.copy-rights{
+    color: rgba(0, 0, 0, 0.4);
+}
