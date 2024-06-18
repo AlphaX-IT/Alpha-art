@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .banner{
     margin: 0;
     padding: 0;
@@ -86,7 +89,7 @@
     color: white;
 }
 .image-1 img{
-    width: 800px;
+    max-width: 100%;
     height: auto;
     border-radius: 40%;
     -webkit-border-radius: 40%;
@@ -189,20 +192,16 @@
 }
 
 .gallery-grid {
-    display: flex;
-    align-items: center;
-    justify-content: start;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
     gap: 1rem;
-    padding: 0px 20px;
-    max-width: screen;
-    overflow-x: scroll;
 }
 .gallery-item{
-    width: 200px;
-    height: auto;
+    width: 90%;
+    height: 100%;
 }
 .gallery-item img {
-    width: 200px;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 4px;
@@ -441,56 +440,4 @@ footer{
 }
 .copy-rights{
     color: rgba(0, 0, 0, 0.4);
-}
-
-/* pricing */
-
-/* .price{
-    width: 400px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.pricing{
-    padding: 30px 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-} */
-.pricing img{
-    width: 280px;
-    height: auto;
-}
-.price{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 100px
-}
-.pricing{
-    background-color: #b4b3b3;
-    padding: 20px;
-    width: 30%;
-    border-radius: 10px;
-    text-align: center;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-.make-center{
-    align-items: center;
-}
-.class-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-card tr{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
